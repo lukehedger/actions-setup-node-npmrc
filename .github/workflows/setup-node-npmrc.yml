@@ -30,4 +30,4 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'
 
       - name: Print .npmrc file contents
-        run: cat .npmrc
+        run: cat ${{ github.workspace }}/.npmrc
